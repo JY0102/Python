@@ -65,5 +65,6 @@ class DB:
 
         return self.cursor.fetchone()
 
+    # 데이터 정보   
 
 
