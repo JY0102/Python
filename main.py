@@ -12,7 +12,11 @@ import json
 # app -> 변수 이름
 # reload -> 코드 수정시 자동 반영
 
+<<<<<<< HEAD
 # reids 의 max memory 는 512MB 로 지정
+=======
+print("test2 branch")
+>>>>>>> 168ceec56f0bb5e570f2ad333b3842d7878eb380
 
 app = FastAPI()
 r = redis.Redis(host="localhost", port=6379, decode_responses=True)
