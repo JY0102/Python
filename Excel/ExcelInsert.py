@@ -10,7 +10,7 @@ class E_Init:
         from sqlalchemy import create_engine
         from sqlalchemy.types import VARCHAR
 
-        engine = create_engine("mssql+pyodbc://aaa:1234@DESKTOP-572CNE4\SQLEXPRESS/WB41?driver=ODBC+Driver+17+for+SQL+Server")
+        engine = create_engine("mssql+pyodbc://aaa:1234@DESKTOP-572CNE4/WB41?driver=ODBC+Driver+17+for+SQL+Server")
 
         column_set = {
             '예보요소' : VARCHAR(50), 
